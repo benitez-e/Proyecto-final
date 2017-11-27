@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans:600');
+
+
+*{
+margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+
+.navegacion ul{
+ list-style: none;
+    
+}
+.menu>li{
+    position: relative;
+    display: inline-block; 
+}
+
+.menu>li>a{
+    display: block;
+    padding: 15px 20px;
+    color:#353535;
+    font: 20px 'Muli', sans-serif;
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+.menu li a:hover{
+    color: #FC8D8E;
+    transition: all .1s;
+}
+
+.submenu {
+    position: absolute;
+    background: transparent;
+     width: 120%; 
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.submenu li a{
+    display: block;
+    padding: 25px;
+    color: black;
+    font-family: 'open sans';
+    text-decoration: none;
+    font: 15px 'Muli', sans-serif;
+    margin-top: -60px;
+}
+
+.menu li:hover .submenu{
+   visibility: visible;
+    opacity: 1;
+    
+}
+
+/*---------------submenu 1------------------*/
+
+.submenu1 {
+    position: absolute;
+    background: transparent;
+    width: 120%; 
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.submenu1 li a{
+    display: block;
+    padding: 30px;
+    color: black;
+    font: 15px 'Muli', sans-serif;
+    text-decoration: none;
+    margin-top: -70px;
+}
+
+.menu li:hover .submenu1{
+   visibility: visible;
+    opacity: 1;
+}

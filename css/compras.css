@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans:600');
+
+
+
+body{
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    overflow-x: hidden;
+    font: 20px 'Muli', sans-serif;
+}
+
+#logo{
+    float: left;
+    margin: 50px;
+    padding: 0px;
+   
+}
+
+.contenedor{
+    width: 100%;
+    height: 300px;
+    widows: 80%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+header{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    height: 230px;
+    margin-right: 20px;
+    border-bottom: 1px solid #C2C2C2;
+    margin-bottom: 50px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+   font-family: 'Encode Sans', sans-serif;
+    display: inline;
+    padding: 40px 20px 0px 20px;
+    
+}
+
+header nav{
+    float: right;
+    margin-top: 35px;
+}
+
+
+
+.linea{
+    border-top: 1px solid #C2C2C2;   
+}
+
+.linea2{
+    height: 10px;
+    width: 60%;
+    border-top: 1px solid #C2C2C2;
+    margin: auto;
+    padding: auto;
+}
+    
+
+
+.redes{
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.linea3{
+    height: 0px;
+    width: 100%;
+    border-top: 1px solid #C2C2C2;
+    margin: auto;
+    padding: auto;
+}
+
+.linea4{
+    height: 0px;
+    width: 50%;
+    border-top: 1px solid #C2C2C2 ;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 40px;
+}
+
+.descripcion{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.acordeon input{
+    display: none;
+}
+
+.acordeon__titulo{
+    margin-top: 10px;
+    display: block;
+    padding: 12px;
+    background-color: #F67274; 
+    color: antiquewhite;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+
+.acordeon__titulo:hover{
+    background: #FC8D8E ;
+    
+}
+
+.acordeon__contenido{
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: all 0.5s;
+    
+}
+
+.acordeon input:checked ~ .acordeon__contenido{
+    
+    height: auto;
+    margin: 15px 0;
+    
+}
+
+.acordeon__item1{
+    margin-bottom: -25px;
+}
+

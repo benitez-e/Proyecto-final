@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans:600');
+
+
+
+body{
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    overflow-x: hidden;
+    font: 20px 'Muli', sans-serif;
+}
+
+#logo{
+    float: left;
+    margin: 50px;
+    padding: 0px;
+   
+}
+
+.contenedor{
+    width: 100%;
+    height: 300px;
+    widows: 80%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+header{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    height: 230px;
+    margin-right: 20px;
+    border-bottom: 1px solid #C2C2C2;
+    margin-bottom: 20px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+   font-family: 'Encode Sans', sans-serif;
+    display: inline;
+    padding: 40px 20px 0px 20px;
+    
+}
+
+header nav{
+    float: right;
+    margin-top: 35px;
+}
+
+
+
+
+.contenedor1{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    
+}
+
+#subtitulo{
+    font: 15px 'Muli', sans-serif;
+    text-align: center;
+}
+
+.linea{
+    border-top: 1px solid #C2C2C2;   
+}
+
+.linea2{
+    height: 20px;
+    width: 420px;
+    border-top: 1px solid #C2C2C2;
+    margin: auto;
+    padding: auto;
+}
+    
+
+.redes{
+    padding: 10px;
+    text-align: center;
+    
+}
+    
+.seccionrelojes{    
+    width: 100%;
+    height: 320px;
+    padding-bottom: 1px;  
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+    
+.seccionrelojes img{   
+    width: 400px;
+    height: 320px;
+    padding: 1px;  
+}
+
+.seccionrelojes2 img{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.seccionrelojes2{
+    width:100%;
+    height: 400px;
+    margin-left:0px;
+    padding-top: 0px; 
+    padding: 1px;
+    display: inline-block;
+    text-align: center;
+}
+
+.linea3{
+    height: 0px;
+    width: 100%;
+    border-top: 1px solid #C2C2C2;
+    margin: auto;
+    padding: auto;
+}
+    
+
